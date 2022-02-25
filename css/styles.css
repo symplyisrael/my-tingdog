@@ -1,0 +1,168 @@
+.body{
+    font-family: "Montserrat",;
+}
+        /* Headings */
+
+.big-heading{
+    font-family: "Montserrat-Black"!important;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat-Bold";
+    font-weight: 700;
+}
+/* title */
+
+
+.h3{
+    font-size: 1.5em;
+}
+#title .container-fluid{
+    padding: 3% 15%;
+    text-align: left;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+        /* Containers */
+.container-fluid{
+    padding: 3% 15% 
+}
+        /* Sections */
+.colored-section{
+background-color: #ff4c68;
+color: #ffffff;
+} 
+.white-sections{
+background-color: #ffffff;
+}
+
+/* navbar */
+
+.navbar{
+    padding-bottom: 4.5rem;  
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.navitem{
+  padding: 0 18px;
+}
+.navlink{
+font-size: 1.5rem;
+}
+
+            /* Download butttons */
+ 
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+            /* iphone6 mockup */
+.title-image{
+    width: 19rem;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+}
+
+        /**************** features ************/
+#features{
+    /* margin-top: 5%; */
+    background-color: white;
+    padding: 7% 15%;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+ 
+.fas{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.fas:hover{
+    color: #ff4c68;
+}
+.row p{
+  color: #8f8f8f;
+}
+
+/**************Testimonial************/
+
+.testimonial-text{
+font-size: 3rem;
+line-height: 1.5;
+}
+#testimonials{
+    background-color: #ef8172;
+    padding: 7% 15%;
+    text-align: center;
+    color: #ffffff;
+}
+.testimonial-image{
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*************Pricing*************/
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.price-btn{
+    width: 100%;
+}
+.pricing-colomn{
+    padding: 3% 2%;
+}
+/***************Media querry************/
+@media (max-width: 1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+         /* cta-section */
+}
+#cta{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+ .cta-text{
+    color: #ffffff;
+    font-family:'montserrat-black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    padding: 5% 7% 0;
+
+}
+#footer{
+    padding: 50px 0 20px;
+    text-align: center;
+}
+.footer-icons{
+    padding: 0 10px;
+    color: black;
+    text-align: center;
+}
